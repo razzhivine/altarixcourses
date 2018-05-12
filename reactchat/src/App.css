@@ -1,0 +1,80 @@
+body{
+  background: #eee;
+}
+header{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  background-color: #3f51b5;
+  color: #fff;
+  height: 70px;
+}
+header span{
+  margin: 0 0 0 150px;
+  font-size: 25px;
+}
+header span img{
+  float: left;  
+}
+header span p{
+  margin: 10px;
+}
+main{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  margin: 20px auto;
+  width: 1000px;
+  background: #fff;
+}
+.messageBox{
+  background: #c5cae9;
+  margin: 20px 20px 0 ;
+  align-items: center;
+  justify-content: center ;
+  min-width: 100px;
+  max-width: 450px;
+}
+.myMessage{
+  background: #c5cae9;
+  margin: 20px 20px 20px 550px;
+  align-items: center;
+  justify-content: center ;
+  min-width: 100px;
+  max-width: 450px;
+}
+ img{
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+  margin: 10px;
+}
+.message{
+  color: #494949;
+  margin: 10px 0 0 20px;
+}
+.writeMessage{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: center;
+  background-color: #3f51b5;
+  color: #fff;
+}
+textarea{
+  outline: none;
+  resize: none;
+  height: 150px;
+  width: 875px;
+  margin: 20px 10px;
+  float: left;
+  border: none;
+}
+button{
+  height: 150px;
+  width: 100px;
+  background: #fff;
+  border: none;
+  margin: 20px 10px;  
+}
